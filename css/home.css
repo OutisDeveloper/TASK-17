@@ -1,0 +1,11 @@
+#home {
+  margin-top: 100px;
+  padding-top: 100px;
+}
+.home-top {
+  display: grid;
+  grid-template-columns: repeat(2, 570px);
+}
+.home-right img {
+  width: 100%;
+}

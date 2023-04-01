@@ -14,6 +14,9 @@
 *::before {
   box-sizing: border-box;
 }
+:root {
+  scroll-behavior: smooth;
+}
 .container {
   max-width: 1140px;
   margin-left: auto;
