@@ -21,11 +21,11 @@ nav {
   padding-top: 0px;
 }
 #navbar {
-  display: grid;
-  grid-template-columns: auto auto;
-  align-items: center;
+  display: flex;
   justify-content: space-between;
-  padding: 0px 5%;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .navbar-middle {
   display: none;
@@ -41,6 +41,9 @@ nav {
 .navbar-right {
   display: flex;
   align-items: center;
+}
+.po {
+  text-align: right;
 }
 .navbar-right button {
   margin-left: 7px;
@@ -95,6 +98,8 @@ nav {
   #navbar {
     display: grid;
     grid-template-columns: repeat(3, auto);
+    padding-left: 0px;
+    padding-right: 0px;
   }
   nav {
     height: 80px;
