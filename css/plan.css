@@ -1,5 +1,13 @@
+#plans {
+  margin-top: 100px;
+}
+#plans h1,
+p {
+  text-align: center;
+  margin-bottom: 15px;
+}
 .plan-cards {
-  display: grid; 
+  display: grid;
   grid-template-rows: repeat(3, auto);
 }
 .plan-li {
@@ -18,6 +26,11 @@
   display: flex;
   flex-direction: column;
 }
+.plan-card {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .plan-but span {
   font-weight: 500;
   font-size: 20px;
@@ -31,4 +44,132 @@
   border-radius: 20px;
   color: #f53838;
   font-size: 16px;
+}
+.plan-ul {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.card-img {
+  width: 90%;
+  margin-top: 30px;
+  padding-left: 10%;
+}
+.plan-but {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plan-but span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
+  margin-top: 20px;
+}
+.plan-but button {
+  margin-top: 15px;
+  background-color: transparent;
+  color: #f53838;
+  transition: 0.3s ease-in-out;
+}
+.plan-but button:hover {
+  background-color: #f53838;
+  color: white;
+}
+@media (min-width: 600px) {
+  .plan-cards {
+    grid-template-columns: repeat(3, auto);
+  }
+  .plan-card {
+    border: 1px solid transparent;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    padding-bottom: 50px;
+  }
+  .plan-card:hover {
+    border: 1px solid #f53838;
+  }
+  #plans .plan-heading {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0b132a;
+  }
+  #plans .plan-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4f5665;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 420px) {
+  .net-heading {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #0b132a;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .net-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #4f5665;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 700px) {
+  .net-heading {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0b132a;
+    width: 380px;
+  }
+  .net-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4f5665;
+    width: 550px;
+    margin-bottom: 120px;
+  }
+}
+
+/* partner-start */
+.partners {
+  margin-top: 30px;
+  display: grid;
+  grid-template-rows: repeat(1, auto);
+}
+.partner {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1050px) {
+  .partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
