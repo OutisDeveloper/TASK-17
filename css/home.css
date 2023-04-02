@@ -80,7 +80,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.3s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 .home-card:hover {
   background-color: #f53838;
